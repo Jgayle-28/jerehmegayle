@@ -25,7 +25,7 @@ const JgDezigns = () => {
 
             <div className="showcase-nav">
               <a
-                href="https://github.com/Jgayle-28/checkmate"
+                href="https://github.com/Jgayle-28/jgDezigns-raw-code"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="return-btn fade-link"
@@ -35,7 +35,7 @@ const JgDezigns = () => {
 
               <div className="final-site final-site-momentum">
                 <a
-                  href="https://checkmate-2bef9.firebaseapp.com/"
+                  href="jgdezigns.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="final-site final-site-momentum"
