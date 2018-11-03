@@ -1,0 +1,86 @@
+.left-nav {
+  width: 7rem;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: $white;
+  border-right: 1px solid $grey-border;
+  z-index: -1;
+  @include ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-animation: fade-in-left 0.8s ease 2.6s both;
+  animation: fade-in-left 0.8s ease 2.6s both;
+
+  @media only screen and (max-width: $bp-sm) {
+    height: 7rem;
+    width: 100vw;
+    top: 91vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid $grey-border;
+
+    flex-direction: row;
+  }
+
+  a {
+    color: darken($grey-border, 5);
+    @include ease;
+  }
+
+  a:hover {
+    color: $color-primary;
+  }
+
+  &-link {
+    // margin-top: 9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $grey-border;
+    transform: rotate(-90deg);
+  }
+
+  &-email {
+    // margin: 10rem 0 7rem 0;
+    // margin-bottom: 10;
+  }
+
+  &-icons {
+    margin-top: 12rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    @include ease;
+
+    @media only screen and (max-width: $bp-sm) {
+      flex-direction: row;
+      margin-top: 0;
+    }
+
+    a {
+      margin-top: 2rem;
+      @include ease;
+
+      @media only screen and (max-width: $bp-sm) {
+        margin-top: 0;
+      }
+
+      &:not(last-child) {
+        @media only screen and (max-width: $bp-sm) {
+          margin-right: 3rem;
+        }
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}

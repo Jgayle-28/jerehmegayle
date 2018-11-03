@@ -1,0 +1,64 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 300; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 6rem; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 3rem;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 232, 222, 0.5); }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #212121;
+  line-height: 1.6;
+  background-color: #f9f9f9; }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+a:link,
+a:active,
+a:visited {
+  color: #212121;
+  text-decoration: none; }
+
+.content-wrapper {
+  width: 114rem;
+  max-width: 114rem; }
+  @media only screen and (max-width: 79.4em) {
+    .content-wrapper {
+      width: 104rem;
+      max-width: 104rem; } }
+  @media only screen and (max-width: 70.3125em) {
+    .content-wrapper {
+      width: 94rem;
+      max-width: 94rem; } }
+  @media only screen and (max-width: 62.5em) {
+    .content-wrapper {
+      width: 70rem;
+      max-width: 70rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .content-wrapper {
+      width: 40rem;
+      max-width: 40rem; } }

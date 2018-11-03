@@ -1,0 +1,43 @@
+@mixin ease {
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin navEase {
+  transition: all 0.3s ease;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flexRow {
+  display: flex;
+  justify-content: center;
+}
+
+//////// MEDIA QUERY MIXINS ////////////
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

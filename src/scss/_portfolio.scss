@@ -1,0 +1,248 @@
+.portfolio {
+  height: 100vh;
+
+  @include flexRow;
+  align-items: center;
+
+  &-wrapper {
+    // width: 70%;
+    // @include flexRow;
+  }
+}
+
+//////// CONTACT CONTENT - TEXT BEGING ////////////
+.portfolio {
+  // width: 100%;
+  // @include flexRow;
+  // justify-content: center;
+
+  &-title {
+    color: $color-primary;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+
+    &-lead {
+      margin-right: 1rem;
+    }
+
+    &-bar {
+      display: inline-block;
+      background-color: $black;
+      height: 1px;
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &-tag-line {
+    text-transform: uppercase;
+    color: $black;
+    line-height: 4.5rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+
+    -webkit-animation: fade-in-right 1s ease 1.5s both;
+    animation: fade-in-right 1s ease 1.5s both;
+
+    @media only screen and (max-width: $bp-med) {
+      margin-left: 0;
+    }
+
+    @media only screen and (max-width: $bp-sm) {
+      font-size: 3rem;
+    }
+  }
+
+  &-title-container {
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+    align-self: flex-start;
+    @include flexRow;
+    justify-content: flex-start;
+    align-items: center;
+
+    -webkit-animation: fade-in-left 1s ease 1.5s both;
+    animation: fade-in-left 1s ease 1.5s both;
+  }
+}
+
+//////// PROJECT WRAPPERS ////////////
+.project-container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+
+  @media only screen and (max-width: $bp-med) {
+    max-width: 50rem;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    max-width: 50rem;
+    padding: 0;
+  }
+}
+
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+}
+
+//////// PROJECT STYLES ////////////
+.project-item {
+  flex: 1 0 20rem;
+  margin: 1rem;
+  overflow: hidden;
+
+  @media only screen and (max-width: $bp-sm) {
+    flex: 1 0 15rem;
+  }
+
+  &-1 {
+    -webkit-animation: fade-in-bottom 1s ease 1.5s both;
+    animation: fade-in-bottom 1s ease 1.5s both;
+  }
+
+  &-2 {
+    -webkit-animation: fade-in-bottom 1s ease 1.7s both;
+    animation: fade-in-bottom 1s ease 1.7s both;
+  }
+
+  &-3 {
+    -webkit-animation: fade-in-bottom 1s ease 1.9s both;
+    animation: fade-in-bottom 1s ease 1.9s both;
+  }
+
+  &-4 {
+    -webkit-animation: fade-in-bottom 1s ease 2.1s both;
+    animation: fade-in-bottom 1s ease 2.1s both;
+  }
+}
+
+.project-image {
+  // display: block;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  transition: transform 0.3s ease-out;
+
+  @media only screen and (max-width: $bp-ibt) {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  &:hover {
+    transform: scale(1.07);
+  }
+}
+
+//////// PORTFOLIO LINES ////////////
+.portfolio-vertical-line {
+  width: 1px;
+  height: 0;
+  background-color: rgba($grey-text, 0.3);
+  animation-name: portfolio-vertical-lines;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  position: fixed;
+  top: 0;
+  transform: translate(-50%);
+  z-index: -2;
+
+  &-0 {
+    left: 10%;
+  }
+
+  &-1 {
+    left: 42%;
+  }
+
+  &-2 {
+    left: 50%;
+  }
+
+  &-3 {
+    left: 58%;
+  }
+
+  &-4 {
+    left: 90%;
+  }
+}
+.portfolio-lines {
+  position: fixed;
+  height: 1px;
+  background-color: rgba($grey-text, 0.3);
+  width: 0;
+  z-index: -1;
+
+  // TOP-LEFT-LINE
+  &-1 {
+    right: 0;
+    bottom: 35%;
+    transform-origin: right bottom;
+    transform: skewY(-45deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  // BOTTOM-LEFT-RIGHT
+  &-2 {
+    top: 35%;
+    left: 0;
+    transform-origin: left bottom;
+    transform: skewY(-45deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  // TOP-RIGHT
+  &-3 {
+    top: 35%;
+    right: 0;
+    transform-origin: right bottom;
+    transform: skewY(45deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  // TOP-LEFT-LINE
+  &-4 {
+    left: 0;
+    bottom: 35%;
+    transform-origin: left bottom;
+    transform: skewY(45deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+}

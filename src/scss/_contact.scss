@@ -1,0 +1,273 @@
+.contact {
+  height: 100vh;
+
+  @include flexRow;
+  align-items: center;
+
+  &-wrapper {
+    width: 70%;
+
+    @include flexRow;
+
+    @media only screen and (max-width: $bp-ibt) {
+      width: 90%;
+    }
+
+    @media only screen and (max-width: $bp-med) {
+      @include flexCol;
+    }
+  }
+}
+//////// CONTACT CONTENT - TEXT BEGING ////////////
+.contact {
+  &-content {
+    width: 50%;
+    margin-right: -25rem;
+    margin-left: 25rem;
+  }
+
+  &-title {
+    color: $color-primary;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+
+    &-lead {
+      margin-right: 1rem;
+    }
+
+    &-bar {
+      display: inline-block;
+      background-color: $black;
+      height: 1px;
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &-title-container {
+    letter-spacing: 3px;
+    font-weight: 300;
+    align-self: flex-start;
+    @include flexRow;
+    justify-content: flex-start;
+    align-items: center;
+
+    -webkit-animation: fade-in-left 1s ease 1.5s both;
+    animation: fade-in-left 1s ease 1.5s both;
+  }
+}
+
+//////// ALT CONTACT STYLES ////////////
+.alt-contact-wrapper {
+  width: 40%;
+
+  @media only screen and (max-width: $bp-med) {
+    width: 90%;
+    align-items: flex-start;
+    margin-bottom: 3.5rem;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    margin-bottom: 1rem;
+    width: 95%;
+  }
+}
+
+.contact-words {
+  font-size: 5rem;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: $bp-med) {
+    font-size: 4rem;
+
+    @include flexRow;
+    justify-content: flex-start;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    font-size: 2rem;
+
+    flex-wrap: wrap;
+  }
+
+  &-left {
+    -webkit-animation: fade-in-left 1s ease 1.5s both;
+    animation: fade-in-left 1s ease 1.4s both;
+
+    @media only screen and (max-width: $bp-med) {
+      padding-left: 1.3rem;
+    }
+  }
+
+  &-right {
+    -webkit-animation: fade-in-right 1s ease 1.6s both;
+    animation: fade-in-right 1s ease 1.5s both;
+  }
+}
+
+//////// FORM STYLES ////////////
+.form-wrapper {
+  width: 40%;
+
+  @media only screen and (max-width: $bp-med) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: $bp-sm) {
+    width: 98%;
+  }
+}
+
+.form {
+  font-size: 1.2rem;
+  letter-spacing: 3.71px;
+  line-height: 2rem;
+  color: $about-grey;
+
+  &__group {
+    &-1 {
+      -webkit-animation: fade-in-bottom 1s ease 1.3s both;
+      animation: fade-in-bottom 1s ease 1.3s both;
+    }
+
+    &-2 {
+      -webkit-animation: fade-in-bottom 1s ease 1.4s both;
+      animation: fade-in-bottom 1s ease 1.4s both;
+    }
+
+    &-3 {
+      -webkit-animation: fade-in-bottom 1s ease 1.5s both;
+      animation: fade-in-bottom 1s ease 1.5s both;
+    }
+
+    &-4 {
+      -webkit-animation: fade-in-bottom 1s ease 1.6s both;
+      animation: fade-in-bottom 1s ease 1.6s both;
+    }
+  }
+
+  &__group:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__input {
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3.71px;
+    line-height: 2rem;
+    color: $grey-text;
+
+    width: 100%;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: $bg-grey;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $black;
+    display: block;
+    @include navEase;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($black, 0.3);
+      background-color: $bg-grey;
+    }
+
+    &::-webkit-input-placholder {
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+      line-height: 2rem;
+      color: $grey-text;
+      text-transform: uppercase;
+    }
+  }
+
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4rem);
+  }
+
+  &__label {
+    color: $color-primary;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    @include navEase;
+  }
+
+  &__btn {
+    background-color: $black;
+    color: $white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    padding: 0.7rem 5rem;
+    @include navEase;
+
+    &:hover {
+      opacity: 0.9;
+      outline: none;
+      transform: translateY(-2px);
+    }
+
+    &:focus {
+      outline: none;
+      transform: translateY(2px);
+    }
+  }
+
+  textarea {
+    color: $grey-text;
+    font-family: $font-secondary;
+
+    &:focus {
+      color: $black;
+      background-color: $grey-text;
+    }
+  }
+}
+
+//////// CONTACT LINES ////////////
+.contact-lines {
+  position: fixed;
+  height: 1px;
+  background-color: rgba($grey-text, 0.3);
+  width: 0;
+  z-index: -1;
+
+  // TOP-LEFT-LINE
+  &-1 {
+    right: 0;
+    bottom: 35%;
+    transform-origin: right bottom;
+    transform: skewY(-27deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  // BOTTOM-LEFT-RIGHT
+  &-2 {
+    top: 35%;
+    left: 0;
+    transform-origin: left bottom;
+    transform: skewY(-27deg);
+
+    animation-name: home-teal-bottom;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+}

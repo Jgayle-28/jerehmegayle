@@ -1,0 +1,453 @@
+/////////////////////////////////////////////////
+// GENERAL
+/////////////////////////////////////////////////
+
+//////// FADE IN FROM RIGHT ////////////
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+//////// FADE IN FROM LEFT ////////////
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+//////// FADE IN FROM BOTTOM ////////////
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+//////// FADE IN FROM BACK ////////////
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+//////// FADE IN FROM LEFT ////////////
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+//////// FADE IN FROM RIGHT ////////////
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/////////////////////////////////////////////////
+// HOME
+/////////////////////////////////////////////////
+
+//////// LINE ANIMATIONS ////////////
+@keyframes vertical-linezero {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 0%;
+  }
+}
+
+@keyframes vertical-lineone {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 10%;
+  }
+}
+@keyframes vertical-linetwo {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 42%;
+  }
+}
+@keyframes vertical-linethree {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 50%;
+  }
+}
+@keyframes vertical-linefour {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 58%;
+  }
+}
+@keyframes vertical-linefive {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 90%;
+  }
+}
+@keyframes vertical-linesix {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 100%;
+  }
+}
+
+//////// HERO-LINE ////////////
+@-webkit-keyframes hero-line {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 27rem;
+  }
+}
+
+@-webkit-keyframes hero-line-sm {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 19rem;
+  }
+}
+
+//////// HOME  TEAL LINE BOTTOM ////////////
+@keyframes home-teal-bottom {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200rem;
+  }
+}
+/////////////////////////////////////////////////
+// PORTFOLIO
+/////////////////////////////////////////////////
+@keyframes portfolio-vertical-lines {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+/////////////////////////////////////////////////
+// ABOUT
+/////////////////////////////////////////////////
+
+//////// ABOUT PIC BACKGROUND ////////////
+@-webkit-keyframes about-pic-bg {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  50% {
+    height: 50rem;
+  }
+
+  100% {
+    width: 42.5rem;
+    opacity: 0;
+  }
+}
+@keyframes about-pic-bg {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  50% {
+    height: 50rem;
+  }
+
+  100% {
+    width: 42.5rem;
+    height: 0;
+    opacity: 0;
+  }
+}
+
+//////// ABOUT PIC BACKGROUND ////////////
+@-webkit-keyframes about-pic-bg-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 42.5rem;
+  }
+}
+@keyframes about-pic-bg {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 42.5rem;
+  }
+}
+
+//////// ABOUT PIC ////////////
+@-webkit-keyframes about-pic {
+  0% {
+    width: 42.5rem;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes about-pic {
+  0% {
+    width: 42.5rem;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+//////// ABOUT LINE RIGHT ////////////
+@-webkit-keyframes about-line-right {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 95%;
+  }
+}
+@keyframes about-line-right {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 95%;
+  }
+}
+
+//////// ABOUT LINE BOTTOM ////////////
+@-webkit-keyframes about-line-bottom {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes about-line-bottom {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+/////////////////////////////////////////////////
+// CONTACT
+/////////////////////////////////////////////////
+
+//////// CONTACT LINES ////////////
+@keyframes contact-line {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes contact-line-down {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes contact-line-up {
+  0% {
+    height: 0%;
+  }
+
+  50% {
+    height: 50%;
+    transform: rotate(780deg);
+  }
+
+  100% {
+    height: 100%;
+    transform: rotate(780deg);
+  }
+}
