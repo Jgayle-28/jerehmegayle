@@ -25,6 +25,11 @@ const Checkmate = () => {
               project called the "Miranda Life". This was a really fun project
               for me to build and it sparked my love for React.
               <p>
+                <strong>
+                  I have temporarly disabled the ability to register
+                </strong>
+              </p>
+              <p>
                 Please login with - USER: test@gmail.com | PASS: password123
               </p>
             </p>
