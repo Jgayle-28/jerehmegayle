@@ -900,7 +900,8 @@ main {
   @media only screen and (max-width: 37.5em) {
     .project-container {
       max-width: 50rem;
-      padding: 0; } }
+      padding: 0;
+      margin-left: 2.1rem; } }
 
 .project-wrapper {
   display: flex;
