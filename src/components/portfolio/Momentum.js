@@ -37,7 +37,7 @@ const Momentum = () => {
 
               <div className="final-site final-site-momentum">
                 <a
-                  href="https://jgayle-28.github.io/momentum-raw-code/"
+                  href="https://momentum-ecom.netlify.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="final-site final-site-momentum"
@@ -51,7 +51,7 @@ const Momentum = () => {
             </div>
           </div>
 
-          <div className="progress-wrap">
+          <div className="progress-wrap progress-wrap-momentum">
             <div className="sketch sketch-momentum">
               <img src={momSketch} alt="wire frame sketch" />
               <p className="sketch-info">

@@ -79,38 +79,9 @@ export default () => {
           </form>
         </div>
       </div>
+      {/* Contact lines */}
       <div className="contact-lines contact-lines-1" />
       <div className="contact-lines contact-lines-2" />
-
-      {/* VERTICAL LINES */}
-      {/* <div
-        className="contact-vertical-lines contact-vertical-lines-0"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-1"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-2"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-3"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-4"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-5"
-        id="line-center"
-      />
-      <div
-        className="contact-vertical-lines contact-vertical-lines-6"
-        id="line-center"
-      /> */}
     </main>
   );
 };

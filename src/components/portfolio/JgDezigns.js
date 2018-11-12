@@ -19,8 +19,9 @@ const JgDezigns = () => {
             <p className="about-site">
               Jg Dezigns is based off of the concept of me being the web design
               / developement agency. This was a fun project which allowed my
-              creativity to flow and it also put my Css animation and Sass
-              skills to the test.
+              creativity to flow and it also put my CSS animation and Sass
+              skills to the test. I learned a lot and solidified my existing
+              skill set with Sass, Javascript and HTML.
             </p>
 
             <div className="showcase-nav">
@@ -35,7 +36,7 @@ const JgDezigns = () => {
 
               <div className="final-site final-site-momentum">
                 <a
-                  href="jgdezigns.com/"
+                  href="https://www.jgdezigns.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="final-site final-site-momentum"
@@ -49,7 +50,7 @@ const JgDezigns = () => {
             </div>
           </div>
 
-          <div className="progress-wrap">
+          <div className="progress-wrap progress-wrap-jgDezigns">
             <div className="sketch sketch-momentum">
               <img src={jgSketch} alt="wire frame sketch" />
               <p className="sketch-info">

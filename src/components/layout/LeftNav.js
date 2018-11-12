@@ -44,9 +44,6 @@ export default () => {
         >
           <i className="fab fa-linkedin fa-2x" />
         </a>
-        {/* <a href="https://twitter.com/Jgayle28" target="_blank">
-          <i className="fab fa-twitter fa-2x" />
-        </a> */}
       </div>
     </div>
   );

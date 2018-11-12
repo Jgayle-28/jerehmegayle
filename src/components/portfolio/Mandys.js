@@ -36,7 +36,7 @@ const Momentum = () => {
 
               <div className="final-site final-site-momentum">
                 <a
-                  href="https://jgayle-28.github.io/mandys-raw-code/"
+                  href="https://mandys.netlify.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="final-site final-site-momentum"
@@ -50,7 +50,7 @@ const Momentum = () => {
             </div>
           </div>
 
-          <div className="progress-wrap">
+          <div className="progress-wrap progress-wrap-mandys">
             <div className="sketch sketch-momentum">
               <img src={mandySketch} alt="wire frame sketch" />
               <p className="sketch-info">

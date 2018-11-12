@@ -21,9 +21,12 @@ const Checkmate = () => {
               The goal behind Checkmate is to be able to keep track of your
               hours, how much you make, how many days you worked and to be able
               to log notes for the day just in case there any discrepencies with
-              you paycheck. Checkmate was built of the back of a previous
+              your paycheck. Checkmate was built of the back of a previous
               project called the "Miranda Life". This was a really fun project
               for me to build and it sparked my love for React.
+              <p>
+                Please login with - USER: test@gmail.com | PASS: password123
+              </p>
             </p>
 
             <div className="showcase-nav">
@@ -52,7 +55,7 @@ const Checkmate = () => {
             </div>
           </div>
 
-          <div className="progress-wrap">
+          <div className="progress-wrap progress-wrap-checkmate">
             <div className="sketch sketch-momentum">
               <img src={checkmateSketch} alt="wire frame sketch" />
               <p className="sketch-info">

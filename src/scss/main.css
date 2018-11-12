@@ -162,6 +162,49 @@ a:visited {
     transform: translateX(0);
     opacity: 1; } }
 
+@keyframes nav-logo-spin {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(600deg); } }
+
+@keyframes nav-flicker {
+  0%,
+  100% {
+    opacity: 1; }
+  32.98% {
+    opacity: 1; }
+  33% {
+    opacity: 0; }
+  34% {
+    opacity: 0; }
+  34.02% {
+    opacity: 1; }
+  34.98% {
+    opacity: 1; }
+  35% {
+    opacity: 0; }
+  35.9% {
+    opacity: 0; }
+  35.92% {
+    opacity: 1; }
+  38.98% {
+    opacity: 1; }
+  39% {
+    opacity: 0; }
+  39.8% {
+    opacity: 0; }
+  39.82% {
+    opacity: 1; }
+  83.98% {
+    opacity: 1; }
+  84% {
+    opacity: 0; }
+  84.9% {
+    opacity: 0; }
+  84.92% {
+    opacity: 1; } }
+
 @keyframes vertical-linezero {
   0% {
     height: 0; }
@@ -479,10 +522,16 @@ header {
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .menu-logo {
-      width: 25rem;
-      height: 25rem;
-      background: url(../img/menuLogo.svg);
-      background-size: 25rem 25rem; }
+      width: 30rem;
+      height: 30rem;
+      background: url(../img/menuLogo.svg) no-repeat;
+      background-size: 30rem 30rem;
+      transition: all 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transform: rotate(0); }
+      .menu-branding .menu-logo:hover {
+        animation: nav-flicker 2.5s linear infinite both; }
+      .menu-branding .menu-logo.show {
+        transform: rotate(360deg); }
   .menu .nav-item {
     transform: translate3d(0, 700px, 0);
     transition: all 0.5s ease-in-out;
@@ -705,8 +754,8 @@ main {
       right: 15rem; } }
   @media only screen and (max-width: 37.5em) {
     .me-bg {
-      width: 28rem;
-      height: 50rem; } }
+      width: 25rem;
+      height: 44.6rem; } }
 
 .vertical-lines {
   width: 1px;
@@ -842,7 +891,7 @@ main {
   animation: fade-in-left 1s ease 1.5s both; }
 
 .project-container {
-  max-width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 2rem 2rem; }
   @media only screen and (max-width: 50em) {
@@ -861,28 +910,65 @@ main {
 .project-item {
   flex: 1 0 20rem;
   margin: 1rem;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   @media only screen and (max-width: 37.5em) {
     .project-item {
       flex: 1 0 15rem; } }
+  .project-item:hover .plus {
+    opacity: 1; }
+  .project-item:hover span {
+    opacity: 1; }
   .project-item-1 {
     -webkit-animation: fade-in-bottom 1s ease 1.5s both;
     animation: fade-in-bottom 1s ease 1.5s both; }
+    .project-item-1:hover .image-overlay-checkmate {
+      opacity: 1;
+      transform: scale(1.07); }
+    .project-item-1:hover .project-image {
+      transform: scale(1.07);
+      filter: gray;
+      /* IE5+ */
+      -webkit-filter: grayscale(1);
+      /* Webkit Nightlies & Chrome Canary */ }
   .project-item-2 {
     -webkit-animation: fade-in-bottom 1s ease 1.7s both;
     animation: fade-in-bottom 1s ease 1.7s both; }
+    .project-item-2:hover .image-overlay-jgDezigns {
+      opacity: 1;
+      transform: scale(1.07); }
+    .project-item-2:hover .project-image {
+      transform: scale(1.07);
+      filter: gray;
+      -webkit-filter: grayscale(1); }
   .project-item-3 {
     -webkit-animation: fade-in-bottom 1s ease 1.9s both;
     animation: fade-in-bottom 1s ease 1.9s both; }
+    .project-item-3:hover .image-overlay-momentum {
+      opacity: 1;
+      transform: scale(1.07); }
+    .project-item-3:hover .project-image {
+      transform: scale(1.07);
+      filter: gray;
+      -webkit-filter: grayscale(1); }
   .project-item-4 {
     -webkit-animation: fade-in-bottom 1s ease 2.1s both;
     animation: fade-in-bottom 1s ease 2.1s both; }
+    .project-item-4:hover .image-overlay-mandys {
+      opacity: 1;
+      transform: scale(1.07); }
+    .project-item-4:hover .project-image {
+      transform: scale(1.07);
+      filter: gray;
+      -webkit-filter: grayscale(1); }
 
 .project-image {
   width: 25rem;
   height: 25rem;
   object-fit: cover;
-  transition: transform 0.3s ease-out; }
+  transition: transform 0.3s ease-out;
+  filter: none;
+  -webkit-filter: grayscale(0); }
   @media only screen and (max-width: 70.3125em) {
     .project-image {
       width: 20rem;
@@ -893,6 +979,100 @@ main {
       height: 15rem; } }
   .project-image:hover {
     transform: scale(1.07); }
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 25rem;
+  background-color: rgba(0, 208, 198, 0.8);
+  z-index: 1;
+  transition: 0.3s ease-out;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start; }
+  .image-overlay .plus {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    transition: opacity 0.2s ease 0.2s;
+    opacity: 0; }
+    .image-overlay .plus-line-1 {
+      height: 1px;
+      width: 1.5rem;
+      background-color: #ffffff;
+      margin-right: -1.5rem; }
+    .image-overlay .plus-line-2 {
+      height: 1px;
+      width: 1.5rem;
+      transform: rotate(90deg);
+      background-color: #ffffff; }
+    @media only screen and (max-width: 50em) {
+      .image-overlay .plus {
+        top: 3rem;
+        right: 7rem; } }
+  .image-overlay span {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.2s ease 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start; }
+    .image-overlay span:hover > .image-overlay-arrow::after {
+      width: 0; }
+  .image-overlay-title {
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: inline;
+    margin-bottom: 1.2rem;
+    margin-left: 2rem;
+    z-index: 2; }
+    @media only screen and (max-width: 70.3125em) {
+      .image-overlay-title {
+        margin-bottom: 5.5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .image-overlay-title {
+        margin-bottom: 10rem; } }
+  .image-overlay-arrow {
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 2.8rem;
+    z-index: 2;
+    transition: 0.2s ease; }
+    @media only screen and (max-width: 70.3125em) {
+      .image-overlay-arrow {
+        margin-bottom: 7.2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .image-overlay-arrow {
+        margin-bottom: 11.5rem; } }
+    .image-overlay-arrow::before {
+      content: '';
+      position: absolute;
+      height: 7px;
+      width: 7px;
+      border-left: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+      transform: rotate(-135deg); }
+    .image-overlay-arrow::after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 1.5rem;
+      background: #ffffff;
+      right: -6px;
+      top: 3px;
+      transition: 0.2s ease; }
+    .image-overlay-arrow:hover {
+      cursor: pointer; }
+    .image-overlay-arrow:hover:after {
+      width: 0; }
 
 .portfolio-vertical-line {
   width: 1px;
@@ -1180,7 +1360,7 @@ main {
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 0;
   height: 1px;
   z-index: -1;
@@ -1629,6 +1809,14 @@ main {
   width: 20%;
   display: flex;
   flex-direction: column; }
+  .progress-wrap-checkmate {
+    margin-bottom: 12rem; }
+  .progress-wrap-jgDezigns {
+    margin-bottom: 7.5rem; }
+  .progress-wrap-mandys {
+    margin-bottom: 10rem; }
+  .progress-wrap-momentum {
+    margin-bottom: 10.5rem; }
   @media only screen and (max-width: 62.5em) {
     .progress-wrap {
       flex-direction: row;

@@ -1,5 +1,4 @@
 import React from 'react';
-// import megrey_lg from '../../img/megrey_lg.png';
 
 export default () => {
   return (
@@ -33,9 +32,7 @@ export default () => {
         </h2>
       </div>
 
-      <div className="me-bg">
-        {/* <img src={megrey} alt="" className="logo-bg-img" /> */}
-      </div>
+      <div className="me-bg" />
 
       <div className="about-red-line about-red-line-1" id="about-line bottom" />
       <div className="about-red-line about-red-line-2" id="about-line bottom" />

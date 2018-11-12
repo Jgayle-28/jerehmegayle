@@ -2,31 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import LeftNav from './LeftNav';
-// import logoBtn from '../../img/logoBtn.svg';
 
 class UserNav extends Component {
-  constructor() {
-    super();
-    this.state = {
-      showMenu: false
-    };
-  }
+  state = {
+    showMenu: false
+  };
 
   toggleMenu = () => {
     const { showMenu } = this.state;
 
-    this.setState({ showMenu: !showMenu });
+    this.setState({
+      showMenu: !showMenu
+    });
   };
 
   render() {
     return (
       <header>
         <LeftNav />
-        {/* <RightNav /> */}
-        {/* <div className="logo-btn">
-          <img src={logoBtn} alt="" className="btn-logo" alt="logo" />
-        </div> */}
-
+        {/* Menu Button */}
         <div className="menu-btn-container">
           <div
             onClick={this.toggleMenu}
@@ -39,12 +33,16 @@ class UserNav extends Component {
         </div>
 
         <nav className={'menu ' + (this.state.showMenu ? 'show' : '')}>
+          {/* Left / Top side menu */}
           <div
             className={'menu-branding ' + (this.state.showMenu ? 'show' : '')}
           >
-            <div className="menu-logo" />
+            <div
+              className={'menu-logo ' + (this.state.showMenu ? 'show' : '')}
+            />
           </div>
 
+          {/* Right / Bottom side  */}
           <ul className={'menu-nav ' + (this.state.showMenu ? 'show' : '')}>
             <li className={'nav-item ' + (this.state.showMenu ? 'show' : '')}>
               <Link to="/" className="nav-link" onClick={this.toggleMenu}>

@@ -254,7 +254,6 @@
   position: absolute;
   top: 0;
   left: 20%;
-  // height: 90%;
   width: 1px;
   background-color: rgba($grey-text, 0.3);
   -webkit-animation: about-line-right 1s cubic-bezier(0.39, 0.575, 0.565, 1)
@@ -283,12 +282,10 @@
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 0;
   height: 1px;
   z-index: -1;
-  // width: 50%;
-  // background-color: rgba($grey-text, 0.3);
   background-color: rgba($grey-text, 0.3);
 
   -webkit-animation: about-line-bottom 1.3s cubic-bezier(0.39, 0.575, 0.565, 1)
@@ -308,23 +305,3 @@
     bottom: 15%;
   }
 }
-
-// .about-teal-line {
-//   opacity: 1;
-//   width: 0;
-//   height: 25rem; //Change hieght on diff scrren for responsive
-//   width: 0;
-//   position: fixed;
-//   background-color: rgba($color-primary, 1);
-//   mix-blend-mode: multiply;
-//   right: 0%;
-//   top: 75%;
-//   transform-origin: right bottom;
-//   transform: skewY(27deg);
-
-//   animation-name: about-teal-bottom;
-//   animation-duration: 1.9s;
-//   animation-delay: 3.1s;
-//   animation-fill-mode: forwards;
-//   animation-iteration-count: 1;
-// }
