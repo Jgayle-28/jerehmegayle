@@ -1376,7 +1376,7 @@ main {
       bottom: 8%; } }
   @media only screen and (max-width: 37.5em) {
     .about-line-bottom {
-      bottom: 15%; } }
+      bottom: 10%; } }
 
 .contact {
   height: 100vh;
