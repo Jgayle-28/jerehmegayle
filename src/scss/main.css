@@ -282,14 +282,10 @@ a:visited {
     width: 27rem; } }
 
 @-webkit-keyframes hero-line-sm {
-  0% {
-    width: 0; }
   100% {
     width: 19rem; } }
 
 @keyframes home-teal-bottom {
-  0% {
-    width: 0; }
   100% {
     width: 200rem; } }
 

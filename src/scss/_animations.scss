@@ -336,10 +336,6 @@
 }
 
 @-webkit-keyframes hero-line-sm {
-  0% {
-    width: 0;
-  }
-
   100% {
     width: 19rem;
   }
@@ -347,9 +343,6 @@
 
 //////// HOME  TEAL LINE BOTTOM ////////////
 @keyframes home-teal-bottom {
-  0% {
-    width: 0;
-  }
   100% {
     width: 200rem;
   }
