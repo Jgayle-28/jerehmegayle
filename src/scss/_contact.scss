@@ -16,6 +16,10 @@
     @media only screen and (max-width: $bp-med) {
       @include flexCol;
     }
+
+    @media only screen and (max-width: $bp-sm) {
+      margin-bottom: 3rem;
+    }
   }
 }
 

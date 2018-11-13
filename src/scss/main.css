@@ -1391,6 +1391,9 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center; } }
+    @media only screen and (max-width: 37.5em) {
+      .contact-wrapper {
+        margin-bottom: 3rem; } }
 
 .contact-content {
   width: 50%;
