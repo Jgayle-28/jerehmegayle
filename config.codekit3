@@ -16,6 +16,14 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.netlify/state.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.netlify/state-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/build/asset-manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -56,122 +64,122 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/build/static/css/main.0a62276d.css": {
+	"/build/static/css/main.2c655513.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/static/css/main.0a62276d-min.css",
+		"oAP": "/build/static/css/main.2c655513-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/build/static/css/main.0a62276d.css.map": {
+	"/build/static/css/main.2c655513.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/build/static/css/main.0a62276d.css.map",
+		"oAP": "/build/static/css/main.2c655513.css.map",
 		"oF": 0
 		},
-	"/build/static/js/main.b8041d86.js": {
+	"/build/static/js/main.77df3758.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/static/js/main.b8041d86-min.js",
+		"oAP": "/build/static/js/main.77df3758-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/build/static/js/main.b8041d86.js.map": {
+	"/build/static/js/main.77df3758.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/build/static/js/main.b8041d86.js.map",
+		"oAP": "/build/static/js/main.77df3758.js.map",
 		"oF": 0
 		},
-	"/build/static/media/about.8b5953b3.png": {
+	"/build/static/media/about.5ebba6bb.png": {
 		"ft": 32768,
-		"iS": 714578,
+		"iS": 545461,
 		"oA": 0,
-		"oAP": "/build/static/media/about.8b5953b3.png",
+		"oAP": "/build/static/media/about.5ebba6bb.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/checkmate-full-mock.f1804ba5.png": {
+	"/build/static/media/checkmate-full-mock.2f0a403a.png": {
 		"ft": 32768,
-		"iS": 154632,
+		"iS": 36198,
 		"oA": 0,
-		"oAP": "/build/static/media/checkmate-full-mock.f1804ba5.png",
+		"oAP": "/build/static/media/checkmate-full-mock.2f0a403a.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/checkmate-thumb.7f296368.png": {
+	"/build/static/media/checkmate-thumb.85fca40e.png": {
 		"ft": 32768,
-		"iS": 32553,
+		"iS": 12467,
 		"oA": 0,
-		"oAP": "/build/static/media/checkmate-thumb.7f296368.png",
+		"oAP": "/build/static/media/checkmate-thumb.85fca40e.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/jgDezigns-full-mock.ba1896cf.png": {
+	"/build/static/media/jgDezigns-full-mock.be0ea51a.png": {
 		"ft": 32768,
-		"iS": 1530779,
+		"iS": 479516,
 		"oA": 0,
-		"oAP": "/build/static/media/jgDezigns-full-mock.ba1896cf.png",
+		"oAP": "/build/static/media/jgDezigns-full-mock.be0ea51a.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/jgDezigns-thumb.48959ba7.png": {
+	"/build/static/media/jgDezigns-thumb.d3227189.png": {
 		"ft": 32768,
-		"iS": 185886,
+		"iS": 64137,
 		"oA": 0,
-		"oAP": "/build/static/media/jgDezigns-thumb.48959ba7.png",
+		"oAP": "/build/static/media/jgDezigns-thumb.d3227189.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/mandys-full-mock.ccffd768.png": {
+	"/build/static/media/mandys-full-mock.c227d6ab.png": {
 		"ft": 32768,
-		"iS": 9222407,
+		"iS": 2543786,
 		"oA": 0,
-		"oAP": "/build/static/media/mandys-full-mock.ccffd768.png",
+		"oAP": "/build/static/media/mandys-full-mock.c227d6ab.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/mandys-thumb.3a99aeee.png": {
+	"/build/static/media/mandys-thumb.5761db6d.png": {
 		"ft": 32768,
-		"iS": 118553,
+		"iS": 100728,
 		"oA": 0,
-		"oAP": "/build/static/media/mandys-thumb.3a99aeee.png",
+		"oAP": "/build/static/media/mandys-thumb.5761db6d.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/megrey.aa719975.png": {
+	"/build/static/media/megrey.d510fd99.png": {
 		"ft": 32768,
-		"iS": 2668495,
+		"iS": 2150800,
 		"oA": 0,
-		"oAP": "/build/static/media/megrey.aa719975.png",
+		"oAP": "/build/static/media/megrey.d510fd99.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -188,99 +196,88 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/build/static/media/mock-jgDezigns.34fa0fab.png": {
+	"/build/static/media/mock-mandys.81bbd23f.png": {
 		"ft": 32768,
-		"iS": 22983,
+		"iS": 14309,
 		"oA": 0,
-		"oAP": "/build/static/media/mock-jgDezigns.34fa0fab.png",
+		"oAP": "/build/static/media/mock-mandys.81bbd23f.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/mock-mandys.6cceb60a.png": {
+	"/build/static/media/mock-mom.e39ad39d.png": {
 		"ft": 32768,
-		"iS": 41924,
+		"iS": 21506,
 		"oA": 0,
-		"oAP": "/build/static/media/mock-mandys.6cceb60a.png",
+		"oAP": "/build/static/media/mock-mom.e39ad39d.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/mock-mom.420cebe2.png": {
+	"/build/static/media/mom-thumb.4193a439.png": {
 		"ft": 32768,
-		"iS": 70209,
+		"iS": 50551,
 		"oA": 0,
-		"oAP": "/build/static/media/mock-mom.420cebe2.png",
+		"oAP": "/build/static/media/mom-thumb.4193a439.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/mom-thumb.fcfb1acd.png": {
+	"/build/static/media/momentum-full-mock.4f8aa04e.png": {
 		"ft": 32768,
-		"iS": 137541,
+		"iS": 1363398,
 		"oA": 0,
-		"oAP": "/build/static/media/mom-thumb.fcfb1acd.png",
+		"oAP": "/build/static/media/momentum-full-mock.4f8aa04e.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/momentum-full-mock.d1215e8e.png": {
+	"/build/static/media/sketch-checkmate.1e94d025.png": {
 		"ft": 32768,
-		"iS": 5039243,
+		"iS": 35374,
 		"oA": 0,
-		"oAP": "/build/static/media/momentum-full-mock.d1215e8e.png",
+		"oAP": "/build/static/media/sketch-checkmate.1e94d025.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/sketch-checkmate.198c5375.png": {
+	"/build/static/media/sketch-jgDez.6ecf4026.png": {
 		"ft": 32768,
-		"iS": 83272,
+		"iS": 35145,
 		"oA": 0,
-		"oAP": "/build/static/media/sketch-checkmate.198c5375.png",
+		"oAP": "/build/static/media/sketch-jgDez.6ecf4026.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/sketch-jgDez.22dff078.png": {
+	"/build/static/media/sketch-mandys.35dc519d.png": {
 		"ft": 32768,
-		"iS": 88936,
+		"iS": 32666,
 		"oA": 0,
-		"oAP": "/build/static/media/sketch-jgDez.22dff078.png",
+		"oAP": "/build/static/media/sketch-mandys.35dc519d.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/build/static/media/sketch-mandys.72264091.png": {
+	"/build/static/media/sketch-mom.02a958d0.png": {
 		"ft": 32768,
-		"iS": 87585,
+		"iS": 30962,
 		"oA": 0,
-		"oAP": "/build/static/media/sketch-mandys.72264091.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/static/media/sketch-mom.49b8891d.png": {
-		"ft": 32768,
-		"iS": 81636,
-		"oA": 0,
-		"oAP": "/build/static/media/sketch-mom.49b8891d.png",
+		"oAP": "/build/static/media/sketch-mom.02a958d0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -958,16 +955,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/src/scss/userNav.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/userNav-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
